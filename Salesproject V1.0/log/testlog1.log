@@ -1,0 +1,63 @@
+2020-02-08 12:14:06,184 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 12:18:11,534 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 12:18:11,536 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 12:18:11,551 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 12:27:38,669 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 12:27:38,676 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 12:27:38,676 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 12:29:04,063 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 12:29:04,078 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 12:29:04,078 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 12:29:04,094 [main] INFO com.ATTADMSales.salesproject.BaseClass - TC01 passed
+2020-02-08 18:53:45,650 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 18:53:45,677 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 18:53:45,677 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 18:53:45,677 [main] INFO com.ATTADMSales.salesproject.BaseClass - TC01 passed
+2020-02-08 18:59:41,498 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 18:59:41,510 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 18:59:41,510 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 18:59:41,510 [main] INFO com.ATTADMSales.salesproject.BaseClass - TC01 passed
+2020-02-08 19:00:44,371 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 19:00:44,387 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 19:00:44,387 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 19:00:44,403 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:01:53,249 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 19:01:53,265 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 19:01:53,265 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 19:01:53,280 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:22:48,784 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 19:22:48,785 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 19:22:48,785 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 19:22:48,800 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:23:25,172 [main] INFO com.ATTADMSales.salesproject.BaseClass - first TC is passed
+2020-02-08 19:23:25,174 [main] INFO com.ATTADMSales.salesproject.BaseClass - Second TC is passed
+2020-02-08 19:23:25,174 [main] INFO com.ATTADMSales.salesproject.BaseClass -  third tC is passed
+2020-02-08 19:23:25,190 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:26:01,011 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-08 19:26:01,011 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-08 19:26:01,026 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-08 19:26:01,026 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:52:37,863 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-08 19:52:37,865 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-08 19:52:37,865 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-08 19:52:37,880 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:53:09,921 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-08 19:53:09,923 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-08 19:53:09,923 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-08 19:53:09,923 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 19:54:22,848 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-08 19:54:22,849 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-08 19:54:22,865 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-08 19:54:22,865 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-08 20:05:40,880 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-08 20:05:40,882 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-08 20:05:40,897 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-08 20:05:40,897 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-16 18:37:25,873 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-16 18:37:26,013 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-16 18:37:26,018 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-16 18:37:26,025 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
+2020-02-16 18:45:24,247 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, first TC is passed
+2020-02-16 18:45:24,248 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales 01, Second TC is passed
+2020-02-16 18:45:24,248 [main] INFO com.ATTADMSales.salesproject.BaseClass -  Sales02, Third tC is passed
+2020-02-16 18:45:24,264 [main] INFO com.ATTADMSales.salesproject.BaseClass - Sales02, TC01 passed
