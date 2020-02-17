@@ -9,15 +9,24 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">239</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,007</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.ATTADMSales.salesproject.Sales01</td><td><a href="#m0">testff</a></td><td rowspan="1">1581172540859</td><td rowspan="1">23</td></tr><tr class="passedeven"><td><a href="#m1">testff01</a></td><td rowspan="1">1581172540882</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">testff02</a></td><td rowspan="1">1581172540882</td><td rowspan="1">15</td></tr><tr class="passedodd"><td rowspan="3">com.ATTADMSales.salesproject.Sales02</td><td><a href="#m3">testff</a></td><td rowspan="1">1581172540897</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m4">testff01</a></td><td rowspan="1">1581172540897</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m5">testff02</a></td><td rowspan="1">1581172540913</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ExtentReport.Extent01</td><td><a href="#m0">Regression</a></td><td rowspan="1">1581916652019</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">ExtentReport.Extent01</td><td><a href="#m1">Isskip</a></td><td rowspan="1">1581916652003</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ExtentReport.Extent01</td><td><a href="#m2">doLogin</a></td><td rowspan="1">1581916652019</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="3">com.ATTADMSales.salesproject.Sales01</td><td><a href="#m3">testff</a></td><td rowspan="1">1581916651830</td><td rowspan="1">73</td></tr><tr class="passedodd"><td><a href="#m4">testff01</a></td><td rowspan="1">1581916651919</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m5">testff02</a></td><td rowspan="1">1581916651934</td><td rowspan="1">16</td></tr><tr class="passedeven"><td rowspan="3">com.ATTADMSales.salesproject.Sales02</td><td><a href="#m6">testff</a></td><td rowspan="1">1581916651972</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m7">testff01</a></td><td rowspan="1">1581916651972</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">testff02</a></td><td rowspan="1">1581916651988</td><td rowspan="1">15</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.ATTADMSales.salesproject.Sales01#testff</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.ATTADMSales.salesproject.Sales01#testff01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.ATTADMSales.salesproject.Sales01#testff02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.ATTADMSales.salesproject.Sales02#testff</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.ATTADMSales.salesproject.Sales02#testff01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.ATTADMSales.salesproject.Sales02#testff02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">ExtentReport.Extent01#Regression</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  Regression failed
+	at ExtentReport.Extent01.Regression(Extent01.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ExtentReport.Extent01#Isskip</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the TC
+	at ExtentReport.Extent01.Isskip(Extent01.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ExtentReport.Extent01#doLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ATTADMSales.salesproject.Sales01#testff</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.ATTADMSales.salesproject.Sales01#testff01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.ATTADMSales.salesproject.Sales01#testff02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.ATTADMSales.salesproject.Sales02#testff</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.ATTADMSales.salesproject.Sales02#testff01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.ATTADMSales.salesproject.Sales02#testff02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

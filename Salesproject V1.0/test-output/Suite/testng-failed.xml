@@ -3,11 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ATTADMSales.salesproject.Sales01">
+      <class name="ExtentReport.Extent01">
         <methods>
-          <include name="testff02"/>
+          <include name="Isskip"/>
+          <include name="tearDown"/>
+          <include name="setReport"/>
+          <include name="endReport"/>
+          <include name="Regression"/>
         </methods>
-      </class> <!-- com.ATTADMSales.salesproject.Sales01 -->
+      </class> <!-- ExtentReport.Extent01 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

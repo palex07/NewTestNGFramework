@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Admin\eclipse-workspace\salesproject\testng.xml</span>
+                    <span>C:\Users\Admin\git\repository\Salesproject V1.0\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,  1 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ExtentReport.Extent01" class="method navigator-link" hash-for-method="Regression">Regression</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ExtentReport.Extent01" class="method navigator-link" hash-for-method="Isskip">Isskip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +130,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ATTADMSales.salesproject.Sales01" class="method navigator-link" hash-for-method="testff">testff</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="ExtentReport.Extent01" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.ATTADMSales.salesproject.Sales02" class="method navigator-link" hash-for-method="testff">testff</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ATTADMSales.salesproject.Sales01" class="method navigator-link" hash-for-method="testff">testff</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,35 +175,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.ATTADMSales.salesproject.Sales01</span>
+              <img src="failed.png"/>
+              <span class="class-name">ExtentReport.Extent01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testff">
-                  </a> <!-- testff -->
-                  <span class="method-name">testff</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testff01">
-                  </a> <!-- testff01 -->
-                  <span class="method-name">testff01</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testff02">
-                  </a> <!-- testff02 -->
-                  <span class="method-name">testff02</span>
+                  <a name="Regression">
+                  </a> <!-- Regression -->
+                  <span class="method-name">Regression</span>
+                  <div class="stack-trace">java.lang.AssertionError:  Regression failed
+	at ExtentReport.Extent01.Regression(Extent01.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ExtentReport.Extent01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Isskip">
+                  </a> <!-- Isskip -->
+                  <span class="method-name">Isskip</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the TC
+	at ExtentReport.Extent01.Isskip(Extent01.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -200,10 +244,54 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExtentReport.Extent01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin">
+                  </a> <!-- doLogin -->
+                  <span class="method-name">doLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ATTADMSales.salesproject.Sales01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testff">
+                  </a> <!-- testff -->
+                  <span class="method-name">testff</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testff01">
+                  </a> <!-- testff01 -->
+                  <span class="method-name">testff01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testff02">
+                  </a> <!-- testff02 -->
+                  <span class="method-name">testff02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\eclipse-workspace\salesproject\testng.xml</span>
+            <span class="header-content">C:\Users\Admin\git\repository\Salesproject V1.0\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,6 +302,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.ATTADMSales.salesproject.Sales01&quot;/&gt;
       &lt;class name=&quot;com.ATTADMSales.salesproject.Sales02&quot;/&gt;
+      &lt;class name=&quot;ExtentReport.Extent01&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -227,7 +316,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,36 +342,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testff')
 data.setCell(0, 2, 'com.ATTADMSales.salesproject.Sales01')
-data.setCell(0, 3, 23);
+data.setCell(0, 3, 73);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testff01')
-data.setCell(1, 2, 'com.ATTADMSales.salesproject.Sales02')
+data.setCell(1, 1, 'testff02')
+data.setCell(1, 2, 'com.ATTADMSales.salesproject.Sales01')
 data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testff02')
-data.setCell(2, 2, 'com.ATTADMSales.salesproject.Sales01')
+data.setCell(2, 2, 'com.ATTADMSales.salesproject.Sales02')
 data.setCell(2, 3, 15);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testff01')
-data.setCell(3, 2, 'com.ATTADMSales.salesproject.Sales01')
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'ExtentReport.Extent01')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testff')
+data.setCell(4, 1, 'testff01')
 data.setCell(4, 2, 'com.ATTADMSales.salesproject.Sales02')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testff02')
+data.setCell(5, 1, 'testff')
 data.setCell(5, 2, 'com.ATTADMSales.salesproject.Sales02')
 data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testff01')
+data.setCell(6, 2, 'com.ATTADMSales.salesproject.Sales01')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Regression')
+data.setCell(7, 2, 'ExtentReport.Extent01')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Isskip')
+data.setCell(8, 2, 'ExtentReport.Extent01')
+data.setCell(8, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 ms</span>
+              <span class="suite-total-time">Total running time: 104 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -320,33 +421,76 @@ return data;
                 <span class="method-name">initsetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExtentReport.Extent01</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ATTADMSales.salesproject.Sales01</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testff</span>
-                <span class="method-start">169 ms</span>
+                <span class="method-start">332 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testff01</span>
-                <span class="method-start">192 ms</span>
+                <span class="method-start">421 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testff02</span>
-                <span class="method-start">192 ms</span>
+                <span class="method-start">436 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ATTADMSales.salesproject.Sales02</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testff</span>
-                <span class="method-start">207 ms</span>
+                <span class="method-start">474 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testff01</span>
-                <span class="method-start">207 ms</span>
+                <span class="method-start">474 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testff02</span>
-                <span class="method-start">223 ms</span>
+                <span class="method-start">490 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExtentReport.Extent01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Isskip</span>
+                <span class="method-start">505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Isskip status=SKIP method=Extent01.Isskip()[pri:0, instance:ExtentReport.Extent01@4...)</span>
+                <span class="method-start">505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Regression</span>
+                <span class="method-start">521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Regression status=FAILURE method=Extent01.Regression()[pri:0, instance:ExtentReport...)</span>
+                <span class="method-start">521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">doLogin</span>
+                <span class="method-start">521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=doLogin status=SUCCESS method=Extent01.doLogin()[pri:0, instance:ExtentReport.Exten...)</span>
+                <span class="method-start">536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">536 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

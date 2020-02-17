@@ -61,3 +61,11 @@
 2020-02-16 18:45:24,248 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales 01, Second TC is passed
 2020-02-16 18:45:24,248 - com.ATTADMSales.salesproject.BaseClass -INFO -  Sales02, Third tC is passed
 2020-02-16 18:45:24,264 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales02, TC01 passed
+2020-02-17 10:47:31,846 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales 01, first TC is passed
+2020-02-17 10:47:31,919 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales 01, Second TC is passed
+2020-02-17 10:47:31,950 - com.ATTADMSales.salesproject.BaseClass -INFO -  Sales02, Third tC is passed
+2020-02-17 10:47:31,972 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales02, TC01 passed
+2020-02-17 10:49:08,281 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales 01, first TC is passed
+2020-02-17 10:49:08,283 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales 01, Second TC is passed
+2020-02-17 10:49:08,283 - com.ATTADMSales.salesproject.BaseClass -INFO -  Sales02, Third tC is passed
+2020-02-17 10:49:08,283 - com.ATTADMSales.salesproject.BaseClass -INFO - Sales02, TC01 passed
